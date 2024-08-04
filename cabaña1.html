@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalles de la Cabaña</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <a class="navbar-brand shadow-text" href="index.html" style="color: black;">Escape Familiar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color: grey;">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link shadow-text" href="index.html" style="color: black;">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link shadow-text" href="#contact" style="color: black;">Contacto</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Cabaña Details -->
+<section id="cabana-details" class="py-5">
+  <div class="container">
+    <div class="card mb-4 border-0">
+      <img src="img/cabañafamiliar.png" class="card-img-top header-img" alt="Cabaña en Río Celeste">
+      <div class="card-body">
+        <h2 class="card-title shadow-text">Cabaña Familiar en Río Celeste</h2>
+        <p class="card-text">
+          Es una cabaña equipada para cocinar, con su refrigerador, plantilla a gas y todo lo necesario para preparar su comida.
+          Cuenta con el Río Celeste frente a la cabaña y una piscina en la parte trasera compartida. Wi-Fi en toda la propiedad y TV por cable.
+          Capacidad en camas para 5 personas: 2 camas matrimoniales y 1 individual. Cuenta con mosquiteros y ventilador. 
+          No hay aire acondicionado, ni agua caliente.
+        </p>
+        <p class="card-text"><strong>Precio:&cent; 45 mil la noche</strong></p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4 border-0">
+          <img src="./img/comedor.png" class="card-img-top header-img" alt="Interior de la cabaña">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 border-0">
+          <img src="./img/habitación.png" class="card-img-top header-img" alt="Piscina compartida">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 border-0">
+          <img src="img/piscina.png" class="card-img-top header-img" alt="Río Celeste">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Contáctanos</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <form action="https://formsubmit.co/estebanquesada1997@gmail.com" method="POST"><!-- Cambiar el correo al que se va a usar -->
+            <div class="form-group">
+              <label for="name">Nombre</label>
+              <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+              <label for="email">Correo electrónico</label>
+              <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+            </div>
+            <div class="form-group">
+              <label for="message">Mensaje</label>
+              <textarea class="form-control" id="message" rows="3" placeholder="Tu mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <h3>Dirección</h3>
+          <p>1234 Camino a la Montaña, Pueblo Mágico, País</p>
+          <h3>Teléfono</h3>
+          <p>+1 234 567 890</p>
+          <h3>Email</h3>
+          <p>info@rentadecabanas.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Footer -->
+<footer class=" shadow-text text-center py-4">
+  <p>&copy; 2024 Escape Vista Río Celeste. Todos los derechos reservados.</p>
+ <!-- Sección de redes sociales en el footer -->
+<p class="social-links">
+<a href="https://www.tiktok.com/@escapefamiliar?_t=8obKoo1S5Ib&_r=1" class="social-icon" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+<a href="https://www.facebook.com/profile.php?id=100063517631092&mibextid=ZbWKwL" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+<a href="https://www.instagram.com/escapefamili?igsh=aWkzMXo5ejE4cWNq" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+</p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
